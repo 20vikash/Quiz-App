@@ -1,6 +1,7 @@
 import tkinter
 
 import contribute
+import leaderboard
 import quiz
 import about
 from colors import *
@@ -26,6 +27,9 @@ def page(rootW = None):
         
     def quiz_():
         quiz.page(root3)
+        
+    def leaderBoard():
+        leaderboard.page()
     
     title = tkinter.Label(root3, text='Welcome!', bg=bg, font=('Arieal', 18, 'bold'))
     title.pack(pady=(65, 0))
@@ -44,3 +48,8 @@ def page(rootW = None):
                             command=aboutPage, bg='#8FB6C8', height=5, width=30
                             , font=('Arieal', 12, 'bold'))
     aboutB.pack()
+
+    leaderB = tkinter.Button(root3, text='LeaderBoard',
+                             command=leaderBoard, bg='orange', height=5,
+                             width=30, font=('Arieal', 12, 'bold'))
+    leaderB.pack()
