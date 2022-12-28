@@ -12,7 +12,7 @@ def login(rootW = None):
     root = tkinter.Tk()
 
     root.geometry('600x600+400+100')
-    root.title('log in')
+    root.title('Authenticate')
     root.resizable(0, 0)
     
     root.config(bg=bg)
