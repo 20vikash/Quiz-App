@@ -44,12 +44,12 @@ def page(rootW = None):
                             , font=('Arieal', 12, 'bold'))
     contributeB.pack(pady=(0, 20))
         
-    aboutB = tkinter.Button(root3, text='About App', 
-                            command=aboutPage, bg='#8FB6C8', height=5, width=30
-                            , font=('Arieal', 12, 'bold'))
-    aboutB.pack()
-
     leaderB = tkinter.Button(root3, text='LeaderBoard',
                              command=leaderBoard, bg='orange', height=5,
                              width=30, font=('Arieal', 12, 'bold'))
-    leaderB.pack()
+    leaderB.pack(pady=(0, 20))
+    
+    aboutB = tkinter.Button(root3, text='About App', 
+                            command=aboutPage, bg='#8FB6C8', height=3, width=20
+                            , font=('Arieal', 12, 'bold'))
+    aboutB.pack()
