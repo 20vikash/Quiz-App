@@ -29,7 +29,7 @@ def page(rootW = None):
         quiz.page(root3)
         
     def leaderBoard():
-        leaderboard.page()
+        leaderboard.page(root3)
     
     title = tkinter.Label(root3, text='Welcome!', bg=bg, font=('Arieal', 18, 'bold'))
     title.pack(pady=(65, 0))
