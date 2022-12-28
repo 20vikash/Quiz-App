@@ -14,7 +14,7 @@ def page(rootW = None):
     root3 = tkinter.Tk()
 
     root3.geometry('600x600+400+100')
-    root3.title('HomePage')
+    root3.title('Home Page')
     root3.resizable(0, 0)
     
     root3.config(bg=bg)
