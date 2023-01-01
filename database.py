@@ -1,9 +1,9 @@
 import mysql.connector as sql
 
-con = sql.connect(host='sql6.freesqldatabase.com', 
-                  user='sql6585984', 
-                  passwd='AbApRb9gI5', 
-                  database='sql6585984')
+con = sql.connect(host='localhost', 
+                  user='root', 
+                  passwd='vikashmysql', 
+                  database='QuizApp')
 
 mycursor = con.cursor(buffered=True)
 
